@@ -33,6 +33,7 @@ public class Rast {
 	json.put("email", "num1");
 	json.put("uname", "num2");
 	json.put("email", "num3");
+	json.put("email", "num40");
 	
 	request.body(json.toString());
 	 rs=request.post("http://dummy.restapiexample.com/api/v1/create");
